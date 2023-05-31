@@ -11,6 +11,6 @@ const Template: Story<InputFieldProps> = (args: InputFieldProps) => <InputField 
 
 export const Primary = Template.bind({});
 Primary.args = {
-  placeholder: 'Enter your annual income',
+  placeholder: 'Enter your income',
   type: 'number',
 };

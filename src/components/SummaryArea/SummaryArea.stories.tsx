@@ -12,5 +12,5 @@ const Template: Story<SummaryAreaProps> = (args) => <SummaryArea {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
-  message: 'Your Tax Liability Is:',
+  message: 'Your Tax Liability Is: Nothing to pay',
 };

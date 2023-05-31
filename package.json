@@ -7,8 +7,8 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
-    "@types/node": "^16.18.34",
-    "@types/react": "^18.2.7",
+    "@types/node": "^16.18.32",
+    "@types/react": "^18.2.6",
     "@types/react-dom": "^18.2.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -19,9 +19,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --watchAll=false",
     "eject": "react-scripts eject",
-    "storybook": "storybook dev -p 6006",
+    "storybook": "storybook dev -p 6009",
     "build-storybook": "storybook build"
   },
   "eslintConfig": {
@@ -44,18 +44,18 @@
     ]
   },
   "devDependencies": {
-    "@storybook/addon-essentials": "^7.0.18",
-    "@storybook/addon-interactions": "^7.0.18",
-    "@storybook/addon-links": "^7.0.18",
-    "@storybook/blocks": "^7.0.18",
+    "@storybook/addon-essentials": "^7.0.12",
+    "@storybook/addon-interactions": "^7.0.12",
+    "@storybook/addon-links": "^7.0.12",
+    "@storybook/blocks": "^7.0.12",
     "@storybook/preset-create-react-app": "^7.0.12",
-    "@storybook/react": "^7.0.18",
-    "@storybook/react-webpack5": "^7.0.18",
+    "@storybook/react": "^7.0.12",
+    "@storybook/react-webpack5": "^7.0.12",
     "@storybook/testing-library": "^0.0.14-next.2",
     "babel-plugin-named-exports-order": "^0.0.2",
     "eslint-plugin-storybook": "^0.6.12",
     "prop-types": "^15.8.1",
-    "storybook": "^7.0.18",
-    "webpack": "^5.84.1"
+    "storybook": "^7.0.12",
+    "webpack": "^5.83.1"
   }
 }

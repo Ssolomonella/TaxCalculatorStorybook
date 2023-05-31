@@ -14,12 +14,10 @@ export const MainPage: React.FC<MainPageProps> = (props) => {
   return (
     <div className="main-page">
       <Header title="Welcome to your Tax Calculator" subtitle="powered by Sleepy Heads" />
-      <div className="input-dropdown">
-        <InputField placeholder="Enter your annual income" />
-        <Dropdown options={['Income Tax', 'Property Tax']} />
-      </div>
+      <InputField placeholder="Enter your income" />
+      <Dropdown options={['Income Tax', 'Property Tax']} />
       <Button label="Calculate Tax" />
-      <SummaryArea message="Your Tax Liability Is:" />
+      <SummaryArea message="Your Tax Liability Is: Nothing to pay" />
     </div>
   );
 };

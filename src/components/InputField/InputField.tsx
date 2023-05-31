@@ -15,7 +15,7 @@ export const InputField: React.FC<InputFieldProps> = ({ value, onChange }) => {
     <input
       type="number"
       className="input-field"
-      placeholder="Enter your annual income"
+      placeholder="Enter your income"
       value={value}
       onChange={handleInputChange}
     />
