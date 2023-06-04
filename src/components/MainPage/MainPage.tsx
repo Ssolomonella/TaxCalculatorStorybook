@@ -14,9 +14,9 @@ export const MainPage: React.FC<MainPageProps> = (props) => {
   return (
     <div className="main-page">
       <Header title="Welcome to your Tax Calculator" subtitle="powered by Sleepy Heads" />
-      <InputField placeholder="Enter your income" />
-      <Dropdown options={['Income Tax', 'Property Tax']} />
-      <Button label="Calculate Tax" />
+      <InputField id="income-input" placeholder="Enter your income" />
+      <Dropdown id="tax-type-dropdown" options={['Income Tax', 'Property Tax']} />
+      <Button id="calculate-button" label="Calculate Tax" />
       <SummaryArea message="Your Tax Liability Is: Nothing to pay" />
     </div>
   );
